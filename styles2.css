@@ -1,0 +1,43 @@
+
+/*Book now page*/
+#pricing {
+    position: center;
+    text-align: center;
+    padding: 30px;
+  }
+   
+
+  .mint {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 50px;
+   
+  }
+  
+  .card{
+margin: auto;
+display: flexbox;
+flex-wrap: wrap;
+flex-direction: row;
+margin-bottom: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    display: flexbox;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+ 
+    
+    /*background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);*/
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+    /*background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); /*linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);*/
+  }
+  
+  h5{
+    color: white;
+  }
+
+  body{
+
+   
+  }

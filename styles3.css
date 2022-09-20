@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+#body {
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.wrapper {
+  height: 3.9rem;
+  overflow-y: hidden;
+  align-self: start;
+}
+
+.text {
+  color: #9d9d9d;
+  /*position: relative;*/
+  font-size: 1.7rem;
+  animation: slide-up 1.2s;
+}
+
+.second {
+  color: black;
+  top: -0.2rem;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(5rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  gap: 1rem;
+}
+
+input,
+select,
+textarea {
+  padding: 1.4rem;
+  background: transparent;
+  border: 1px solid black;
+}
+
+textarea {
+  height: 6rem;
+}
+
+button {
+  width: 8rem;
+  padding: 1.4rem;
+  cursor: pointer;
+  background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+  color: white;
+}
+.container {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
